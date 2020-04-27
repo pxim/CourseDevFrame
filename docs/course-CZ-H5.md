@@ -88,8 +88,8 @@
    拆卸模块：（红色：使用工具；绿色：用鼠标点击；）  
    安装模块：（蓝色：放置零件；绿色：使用工具；）  
 #### 2. 场景动画里--代码
-![image](https://user-images.githubusercontent.com/5111701/59334597-6d66a900-8d2d-11e9-962a-1c7c2a2817fe.png)
-![image](https://user-images.githubusercontent.com/5111701/59334660-938c4900-8d2d-11e9-9b59-13dd58c753bb.png)
+![](img\course-CZ-H5 1.png)
+![](img\course-CZ-H5 2.png)
 
 | 属性    | 值                                                           | 备注 |
 | :------ | :----------------------------------------------------------- | :--- |
