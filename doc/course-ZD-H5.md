@@ -1,4 +1,3 @@
-
 <!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
 
 <!-- code_chunk_output -->
@@ -102,7 +101,7 @@
 > root → page 节点下数据
 >
 > ```json
->  {"topic":"radioBox_1", "answer":"selectBox_1", "score":"1"}
+> {"topic":"radioBox_1", "answer":"selectBox_1", "score":"1"}
 > ```
 >
 > 有几道题目，就填几行数据；
@@ -128,13 +127,13 @@
 > root → item 节点下数据
 >
 > ```json
->       {
->         "id": 1,
->         "name": "",
->         "video": "static/video/trailer_hd1.mp4",
->         "poster": "",
->         "text": ""
->       },
+>    {
+>      "id": 1,
+>      "name": "",
+>      "video": "static/video/trailer_hd1.mp4",
+>      "poster": "",
+>      "text": ""
+>    },
 > ```
 >
 > 有几个视频，就填几行数据；
@@ -252,37 +251,37 @@ setMItemState({mItemId:"1", state:"3"});
 
 ##### 操作说明PDF
 
-​       方法：把新的PDF命名改为 ODoc ，然后放到 static\pdf 目录下，进行替换。
+       方法：把新的PDF命名改为 ODoc ，然后放到 static\pdf 目录下，进行替换。
 
 ##### 参考资料PDF
 
-​       方法：把新的PDF命名改为 RDoc，然后放到 static\pdf 目录下，进行替换。
+       方法：把新的PDF命名改为 RDoc，然后放到 static\pdf 目录下，进行替换。
 
 ##### index.fla外部图片
 
 > 包括 菜单栏的底图，按钮图；左侧工具栏的底图，按钮图 等，都可以在 static\img\com 目录下找到
 
-​        方法：找到对应的图片，复制其命名，给新图片命名，然后拷贝到  static\img\com 目录下，进行替换。
+        方法：找到对应的图片，复制其命名，给新图片命名，然后拷贝到  static\img\com 目录下，进行替换。
 
 ##### 操作动画
 
-​        方法：包括 拆卸动画，安装动画，万用表检测动画，蓄电池检测动画，诊断仪操作动画 ，这些都放在 static\page 目录下。
+        方法：包括 拆卸动画，安装动画，万用表检测动画，蓄电池检测动画，诊断仪操作动画 ，这些都放在 static\page 目录下。
 
 ##### 演练模式的视频
 
-​         方法：都放在 static\video 目录下。
+         方法：都放在 static\video 目录下。
 
 ##### 训练模式的页面poster
 
-​         方法：都放在 static\poster 目录下。
+         方法：都放在 static\poster 目录下。
 
 ##### 考核模式的页面poster
 
-​         方法：都放在 static\poster2 目录下。
+         方法：都放在 static\poster2 目录下。
 
 ##### 所有的外部代码
 
-​         方法：都放在 static\js 目录下。
+         方法：都放在 static\js 目录下。
 
 
 
@@ -347,4 +346,3 @@ setMItemState({mItemId:"1", state:"3"});
 4.解决page下步骤动画之间切换时闪白屏，过渡的问题；通过在menuInfo.xml里添加poster字段，来解决；（实现逻辑：切换下一个步骤动画时，先加载一张下一个动画初始图片poster，然后再加载下一个动画的所有素材，等下一个动画素材都加载完，并且渲染好之后，再把poster隐藏，显示下一个动画，解决切换页面之间的闪烁问题）    
 
 ------
-
