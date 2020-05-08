@@ -1,2 +1,4 @@
-# custom-course-frame
-custom课件集成工具
+# DResDevKit
+
+数字资源开发框架（数字资源开发工具包）
+Digital Resource Development Framework
